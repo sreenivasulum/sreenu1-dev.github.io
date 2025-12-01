@@ -1,3 +1,4 @@
+Here is the updated blog post. I have integrated the visualizations into the content for you to copy and paste.
 
 ***
 
@@ -15,10 +16,13 @@ This led to a pivot in her teaching philosophy: **Focus on the "Why," not just t
 
 Instead of teaching specific frameworks, she shifted to **Machine Learning Systems Design**. While architectures (like Transformers vs. LSTMs) change, the fundamental problems of system design—latency, throughput, data drift, and reliability—remain constant.
 
+To illustrate the evolving landscape of roles required to solve these problems, we can look at how disciplines intersect.
 
+![Venn diagram showing intersection of Software Engineering, ML Engineering, and AI Engineering](
 
 [Image of Venn diagram showing intersection of Software Engineering, ML Engineering, and AI Engineering]
-
+)
+*Figure 1: The modern data science and AI engineering landscape sits at the intersection of Math/Stats, Software Engineering, and Data Communication.*
 
 ## 2. The New Stack: AI Engineering
 
@@ -32,10 +36,11 @@ Chip described how modern AI applications often wrap a stochastic, generative co
 3.  **Generation (LLM):** The model generates the response.
 4.  **Guardrails (Classical ML):** A final scoring model checks for toxicity, PII leaks, or relevance before showing the answer to the user.
 
-
+![RAG architecture flow](
 
 [Image of RAG architecture flow]
-
+)
+*Figure 2: The Retrieval-Augmented Generation (RAG) flow. This architecture combines retrieval of external knowledge (via queries) with the generative capabilities of the LLM to produce grounded responses.*
 
 ## 3. Hallucinations vs. Factual Inconsistency
 
